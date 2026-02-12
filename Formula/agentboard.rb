@@ -34,6 +34,7 @@ class Agentboard < Formula
 
   def install
     libexec.install "bin/agentboard" => "agentboard"
+    chmod 0755, libexec/"agentboard"
     (libexec/"dist").install "dist/client"
 
     (bin/"agentboard").write <<~SHELL
