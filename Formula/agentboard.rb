@@ -5,28 +5,28 @@
 class Agentboard < Formula
   desc "Web GUI for tmux optimized for AI agent TUIs"
   homepage "https://github.com/gbasin/agentboard"
-  version "0.22.1"
+  version "0.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gbasin/agentboard/releases/download/v0.22.1/agentboard-darwin-arm64.tar.gz"
-      sha256 "07aa8becd547fd5716f2ca7fe89cb7620c4ba6543447c8742d99db684e4aafba"
+      url "https://github.com/gbasin/agentboard/releases/download/v0.23.0/agentboard-darwin-arm64.tar.gz"
+      sha256 "af405eb7a0ff4cc34c0f461dbb57afd492290225517f779426911e99730a45d3"
     end
     on_intel do
-      url "https://github.com/gbasin/agentboard/releases/download/v0.22.1/agentboard-darwin-x64.tar.gz"
-      sha256 "c9718f185fdf8493070c66572a5094e5f70a06a1e29f208ae904ac015ce0215a"
+      url "https://github.com/gbasin/agentboard/releases/download/v0.23.0/agentboard-darwin-x64.tar.gz"
+      sha256 "b8a2ede7f9b70bee09cd0da9511be13816cf1af3a7937fa64d7ba351ac1ce4d8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gbasin/agentboard/releases/download/v0.22.1/agentboard-linux-arm64.tar.gz"
-      sha256 "025608722a3b57bc5be64df154a81271eb526d6723abbb05aadb44c9179502e8"
+      url "https://github.com/gbasin/agentboard/releases/download/v0.23.0/agentboard-linux-arm64.tar.gz"
+      sha256 "3b01c7cf3e9574f0482c063b4dea5d2145fea91a307d89de63373dcbe949e1ad"
     end
     on_intel do
-      url "https://github.com/gbasin/agentboard/releases/download/v0.22.1/agentboard-linux-x64.tar.gz"
-      sha256 "016709dc199ab3af521afc232ed7764f7e027d167a2a990159287ccab2505ab7"
+      url "https://github.com/gbasin/agentboard/releases/download/v0.23.0/agentboard-linux-x64.tar.gz"
+      sha256 "e617f3387d79def8d67101b992ce8feb38eae5fdca6064d4c25f9dfc87cf320b"
     end
   end
 
