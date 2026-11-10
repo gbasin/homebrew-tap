@@ -11,22 +11,22 @@ class Agentboard < Formula
   on_macos do
     on_arm do
       url "https://github.com/gbasin/agentboard/releases/download/v0.45.0/agentboard-darwin-arm64.tar.gz"
-      sha256 "806cb0bf2b58bdc932d3e2d0d168598269bdd317f41d2c7064bfb1a1915230d5"
+      sha256 "56238600ebda3a730704570143766a00bf53eb537b540623fd906e37f778296e"
     end
     on_intel do
       url "https://github.com/gbasin/agentboard/releases/download/v0.45.0/agentboard-darwin-x64.tar.gz"
-      sha256 "1e30ebc176d835ab6afa1ff6825016ddc8a572606af87f73ed020e27ee8c6711"
+      sha256 "a321c998f7d4b6b240de33367d945da2fd3d11fbbbcc3246ee9b26b209ae6f0e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gbasin/agentboard/releases/download/v0.45.0/agentboard-linux-arm64.tar.gz"
-      sha256 "e9dc8e43d5773cb77a63f5433a104e6138560408fd039f1a191a43efa1c37836"
+      sha256 "38b3b56fcaf47211810a00694e4ea1876abf2836c647d13f977f2a3d0a1126c2"
     end
     on_intel do
       url "https://github.com/gbasin/agentboard/releases/download/v0.45.0/agentboard-linux-x64.tar.gz"
-      sha256 "abea375b7e7d6d9c49985a4dc4d976e9665fb92be03e1f06fe11b0c2d0535fd5"
+      sha256 "1903fc62b632cb212c4d3cd96dd068013d161108d743dfd9f91ac80d106d8ade"
     end
   end
 
